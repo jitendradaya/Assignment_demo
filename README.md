@@ -1,12 +1,34 @@
-# Assignment_demo
+<h1> AWS_3tier_architecture_terraform  </h1>
+Infrastructure Automation | Deploying a 3-Tier Architecture in AWS Using Terraform
 
-I have created three VPC for secure connection 
-1) Once created for bastion host for accessing all the VMs which are in the private VPC.
-2) Created two private VPC for web application adn database.
-3) Created one EBS volume and attached it to database instance for faulty tolerance and data backup.
-4) Created S3 for application logs
-5) Route53 for DNS resolution
-6) WAF for application security
-7) Load balancer for load distribulation
+The three-tier architecture is the most popular implementation of a multi-tier architecture and consists of a single presentation tier, logic tier, and data tier.
 
-For security I have created NACL and security group to allow only required ports which can be used for application access.
+It is a viable choice for software projects to be started quickly. aws_3tier_architecture_terraform
+
+
+<h1> Resources need to be created / installed : </h1>
+ 1 Custom VPC
+
+ 2 Subnets (Public)
+
+ 3 Subnet (Private)
+
+ 4 EC2 Instances
+
+ 5 Security Group
+
+ 6 Elastic IP
+
+ 7 NAT Gateway
+
+ 8 Internet Gateway
+
+ 9 Route Table
+
+ 10 Application Load Balancer
+
+ 11 Apache Webserver
+
+ 12 MySQL DB
+
+![Screenshot_20231001_212302](https://github.com/sourabhdey21/AWS/assets/98477908/8b990a30-02c2-4b92-96f0-178d8f8aee3a)
