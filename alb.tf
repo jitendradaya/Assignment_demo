@@ -6,7 +6,7 @@ resource "aws_lb" "alb" {
     security_groups = [aws_security_group.allow_tls.id]
     subnets = [for subnet in aws_subnet.public : subnet.id]
 
-    enable_deletion_protection =  true
+    enable_deletion_protection =  false
 
     tags = {
         Environment = "test"
